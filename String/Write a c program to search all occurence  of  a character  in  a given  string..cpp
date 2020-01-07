@@ -18,7 +18,7 @@ int main()
 	{
 		if(temp[arr[i]]>=1)
 		{
-			printf("%c:%d\n",arr[i],temp[arr[i]]);
+			printf("%d:%c\n ",temp[arr[i]],arr[i]);
 			temp[arr[i]]=0;
 		}
 		i++;
