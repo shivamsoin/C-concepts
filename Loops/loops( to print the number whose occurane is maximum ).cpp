@@ -1,0 +1,87 @@
+// to print the number whose occurane is maximum 
+#include<stdio.h>
+int main()
+{
+	int n,t,a1,a2,a3,a4,a5,a6,a7,a8,a9;
+	scanf("%d",&n);
+	a1=a2=a3=a4=a5=a6=a7=a8=a9=0;
+	while(n>0)
+	{
+		t=n%10;
+		if(t==1)
+		{
+			a1=a1+1;
+		}
+			if(t==2)
+		{
+			a2=a2+1;
+		}
+			if(t==3)
+		{
+			a3=a3+1;
+		}
+			if(t==4)
+		{
+			a4=a4+1;
+		}
+			if(t==5)
+		{
+			a5=a5+1;
+		}
+			if(t==6)
+		{
+			a6=a6+1;
+		}
+			if(t==7)
+		{
+			a7=a7+1;
+		}
+	      	if(t==8)
+		{
+			a8=a8+1;
+		}
+			if(t==9)
+		{
+			a9=a9+1;
+		}
+		n=n/10;
+	}
+	if(a1>a2&&a1>a3&&a1>a4&&a1>a5&&a1>a6&&a1>a7&&a1>a8&&a1>a9)
+	{
+		printf("\n1");
+	}
+	  if(a2>a1&&a2>a3&&a2>a4&&a2>a5&&a2>a6&&a2>a7&&a2>a8&&a2>a9)
+	{
+		printf("\n2");
+	}
+	 if(a3>a1&&a3>a2&&a3>a4&&a3>a5&&a3>a6&&a3>a7&&a3>a8&&a3>a9)
+	{
+		printf("\n3");
+	}
+	 if(a4>a1&&a4>a2&&a4>a3&&a4>a5&&a4>a6&&a4>a7&&a4>a8&&a4>a9)
+	{
+		printf("\n4");
+	}
+	 if(a5>a1&&a5>a2&&a5>a3&&a5>a4&&a5>a6&&a5>a7&&a5>a8&&a5>a9)
+	{
+		printf("\n5");
+	}
+	  if(a6>a1&&a6>a2&&a6>a3&&a6>a4&&a6>a5&&a6>a7&&a6>a8&&a6>a9)
+	{
+		printf("\n6");
+	}
+	  if(a7>a1&&a7>a2&&a7>a3&&a7>a4&&a7>a5&&a7>a6&&a7>a8&&a7>a9)
+	{
+		printf("\n7");
+	}
+	  if(a8>a1&&a8>a2&&a8>a3&&a8>a4&&a8>a5&&a8>a6&&a8>a7&&a8>a9)
+	{
+		printf("\n8");
+	}
+	 if(a9>a1&&a9>a2&&a9>a3&&a9>a4&&a9>a5&&a9>a6&&a9>a7&&a9>a8)
+	{
+		printf("\n9");
+	}
+	
+	return 0;	
+}

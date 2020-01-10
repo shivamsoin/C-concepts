@@ -1,0 +1,15 @@
+//wap to find sum of all natural numbers
+#include<stdio.h>
+int main()
+{
+	int i=0,n,sum=0;
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		sum=sum+i;
+		
+		printf("%d",sum);
+		i=i++;
+}
+	return 0;
+}
