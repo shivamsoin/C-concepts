@@ -1,4 +1,4 @@
-// to arrange the elements in asending order
+ // to arrange the elements in asending order
 #include<stdio.h>
 int main()
 {
