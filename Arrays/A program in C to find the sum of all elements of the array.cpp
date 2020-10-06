@@ -14,6 +14,6 @@ int main()
 	{
 		sum=sum+a[i];
 	}
-	printf("sum of the elements is:%d",sum);
+	printf("Your sum is:%d",sum);
 }
 
