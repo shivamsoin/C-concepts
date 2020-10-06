@@ -17,6 +17,6 @@ int main()
 	printf("\n\n\n");
 	for(i=0;i<=c;i++)
 	{
-		printf("%d\n",a[i]);
+		printf("Your number is: %d\n",a[i]);
 	}
 }
