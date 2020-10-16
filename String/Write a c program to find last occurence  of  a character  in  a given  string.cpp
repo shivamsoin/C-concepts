@@ -7,7 +7,7 @@ int main()
 	int i=0,count=0,pos1,pos2;
 	printf("Enter the string :");
 	gets(arr);
-	printf("enter the character to search:");
+	printf("Enter a character to search:");
 	scanf("%c",&x);
 	while(arr[i]!='\0')
 	{
